@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  backend:
+    build: .
+    ports:
+      - "8081:8081"
+
+  front-end:
+    build: ~/Desktop\Imad-aws-main\angular
+    ports:
+      - "4200:80"
